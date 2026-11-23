@@ -9,10 +9,10 @@ const Hello = () =>{
 function App() {
   return (
     <>
-      <p>Hello World, It is {now.toString()}</p>
-      <p>
-        {a} plus {b} is {a+b}
-      </p>
+      <h1>Greetings</h1>
+      <Hello />
+      <Hello />
+      <Hello />
     </>
   )
 }
